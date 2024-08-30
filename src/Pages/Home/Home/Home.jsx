@@ -1,9 +1,15 @@
+import ExclusiveDeal from "../ExclusiveDeal/ExclusiveDeal";
+import FeaturedProperties from "../FeaturedProperties/FeaturedProperties";
+import GlobalBrokers from "../GlobalBrokers/GlobalBrokers";
+import Subscribe from "../Subscribe/Subscribe";
+
 const Home = () => {
   return (
     <div>
-      <h1>This is our Home</h1>
-      <h2>add development branch</h2>
-      <h2>add shahidhasan branch</h2>
+      <GlobalBrokers></GlobalBrokers>
+      <Subscribe></Subscribe>
+      <FeaturedProperties></FeaturedProperties>
+      <ExclusiveDeal></ExclusiveDeal>
     </div>
   );
 };
