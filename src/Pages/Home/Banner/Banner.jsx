@@ -1,7 +1,6 @@
 import Container from "../../../Components/Ui/Container/Container";
-import subscribeHome from "../../../../public/brokers-imgs/3d-rendering-isometric-fdgdf 1.png";
-
-const Subscribe = () => {
+import bannerImg from "/public/brokers-imgs/Final ii 1.png";
+const Banner = () => {
   return (
     <Container>
       <div
@@ -9,18 +8,19 @@ const Subscribe = () => {
           background:
             "linear-gradient(to right, #c1dee8b3, #ffffff00, #fbd9b9b3)",
         }}
-        className="rounded-[15px] md:my-[56px]"
+        className="rounded-[15px] mt-8"
       >
-        <div className="md:flex">
-          <div className="pl-[15px] md:pl-[43px] md:pt-[56px] pt-[20px] md:w-[60%]">
-            <h1 className="text-black font-semibold text-[23px] md:text-[50px] md:leading-[60px]">
-              Subscribe Our Newsletter
+        <div className="md:flex gap-[90px]">
+          <div className="md:w-[45%] pl-[15px] md:pl-[46px]">
+            <p className="text-black font-normal text-[16px] md:leading-[19.2px] pt-[30px] md:pt-[91px]">
+              Welcome to Realstate
+            </p>
+            <h1 className="text-black font-bold text-[35px] md:text-[67px] md:leading-[80.4px] tracking-[.3%] pt-2 md:pt-[15px] md:pb-6 pb-[15px]">
+              Manage Your Property
             </h1>
-            <p className="text-black font-normal md:text-[16px] md:leading-[24px] md:pt-[24px] pt-[18px] pb-[20px] md:pb-[45px] max-sm:text-justify pr-[15px]">
-              Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit
-              pellentesque sollicitudin. Egestas faucibus lacus diam in senectus
-              consectetur. Mattis elit adipiscing quisque tellus scelerisque
-              vehicula ante nunc.
+            <p className="text-black font-normal md:text-[16px] md:leading-[24px] md:pr-5">
+              Your will have everything nearby supermarket, buses , station, the
+              carmen neighborhood, etc
             </p>
             <div className="flex items-center w-[250px] md:w-[438px] relative pt-6">
               <input
@@ -35,8 +35,8 @@ const Subscribe = () => {
           </div>
           <div>
             <img
-              className="md:w-[606px] md:h-[500px] md:-mt-[56px] md:-mb-[44px] max-sm:mt-[40px]"
-              src={subscribeHome}
+              className="md:w-[785px] md:h-[600px] md:-mb-[50px] max-sm:mt-[40px]"
+              src={bannerImg}
               alt=""
             />
           </div>
@@ -46,4 +46,4 @@ const Subscribe = () => {
   );
 };
 
-export default Subscribe;
+export default Banner;
