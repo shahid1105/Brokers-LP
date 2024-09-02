@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const navMenu = (
     <div className="flex flex-col md:flex-row items-center gap-5 md:gap-20 pb-6 md:pb-0">
-      <ul className="bg-[#FEFEFF] border-2 border-[#000000] shadow-lg rounded-[40px] py-5 px-[22px] md:flex gap-4 md:gap-[27px] lg:gap-[27px] text-base md:text-lg lg:text-[21px] font-medium items-center">
+      <ul className="md:bg-[#FEFEFF] md:border-2 md:border-[#000000] md:shadow-lg md:rounded-[40px] py-5 px-1 md:px-[22px] md:flex md:gap-[27px] lg:gap-[27px] text-base md:text-lg lg:text-[21px] font-medium items-center">
         <li className="font-medium text-[16px] leading-[19.2px]">
           <Link
             to="about"
@@ -65,15 +65,15 @@ const Navbar = () => {
             Listings
           </Link>
         </li>
-        <li className="flex justify-center items-center text-5xl md:text-[24px] md:ml-5 text-black md:py-0">
+        <li className="flex justify-center items-center text-2xl md:text-[24px] md:ml-5 text-black md:py-0">
           <CiSearch />
         </li>
       </ul>
 
-      <span className="font-medium text-[16px] leading-[120%]">
+      <span className="md:font-medium text-[16px] leading-[120%] px-1">
         Other services
       </span>
-      <button className="py-1 px-3 md:px-8 lg:px-8 md:py-3 lg:py-3 text-sm md:text-[16px] lg:text-[16px] border-2 font- md:leading-[19.2px] rounded-[64px]">
+      <button className="py-1 px-3 md:px-8 lg:px-8 md:py-3 lg:py-3 text-[8px] md:text-[16px] lg:text-[16px] border-2 font- md:leading-[19.2px] rounded-[64px] bg-[#FEFEFF]">
         Contact us
       </button>
     </div>
@@ -87,16 +87,16 @@ const Navbar = () => {
           <div className="lg:hidden relative">
             <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
             {isOpen && (
-              <div className="absolute z-50 p-3 shadow-green-light menu bg-[#1a301a] shadow-md rounded-lg mt-2">
+              <div className="absolute w-[130px] z-50 p-3 shadow-green-light menu bg-[#c6c7c6] shadow-md rounded-lg mt-2">
                 {navMenu}
               </div>
             )}
           </div>
 
           {/* Logo */}
-          <div className="w-full flex  justify-center items-center content-between">
+          <div className="w-full flex justify-center items-center content-between">
             <div className="flex flex-col text-center md:mr-[112px] lg:mr-[112px]">
-              <img src={logo} alt="logo" />
+              <img className="" src={logo} alt="logo" />
             </div>
 
             {/* Desktop Menu */}
