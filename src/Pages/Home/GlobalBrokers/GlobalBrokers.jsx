@@ -5,7 +5,7 @@ const GlobalBrokers = () => {
   return (
     <Container>
       <div className="md:py-[56px] py-[30px]">
-        <h1 className="text-black font-bold text-[30px] md:text-[60px] md:leading-[60px] text-center md:pb-[28px]">
+        <h1 className="text-black font-bold text-[30px] md:text-[60px] leading-[40px] md:leading-[60px] text-center md:pb-[28px]">
           We are a global, boutique real <br /> estate brokerage
         </h1>
         <div className="md:flex md:gap-[150px]">

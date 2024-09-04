@@ -7,8 +7,8 @@ import Rectangle21 from '../../../../public/brokers-imgs/Rectangle 21.png'
 const OurProjects = () => {
   return (
     <Container>
-      <p className="text-[21px] leading-[120%]">Best Project of the Years</p>
-      <h1 className="font-semibold py-[28px] text-[50px] leading-[120%] pt-[28px]">
+      <p className="md:text-[21px] leading-[120%]">Best Project of the Years</p>
+      <h1 className="font-semibold py-4 md:py-[28px] text-[30px] md:text-[50px] leading-[120%] md:pt-[28px]">
         Our recent projects
       </h1>
       <div className="flex flex-col md:flex-row gap-5">
