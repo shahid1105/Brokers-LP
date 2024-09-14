@@ -6,8 +6,8 @@ import dealImg from "../../../../public/brokers-imgs/Frame 78.png";
 const ExclusiveDeal = () => {
   return (
     <Container>
-      <div className="md:flex gap-6">
-        <div className="md:w-[60%] md:py-[124px]">
+      <div className="grid md:grid-cols-2 gap-6 items-center">
+        <div className="md:py-[124px]">
           <h1 className="text-[#5D534A] font-bold text-[22px] md:text-[48px] md:leading-[62.5px] tracking-[.3%] max-sm:pt-5">
             So, what are you waiting for? Get our exclusive deal in one hand
           </h1>
@@ -20,7 +20,7 @@ const ExclusiveDeal = () => {
           </div>
         </div>
         <div className="max-sm:pt-[40px]">
-          <img className="h-full w-full" src={dealImg} alt="" />
+          <img className="" src={dealImg} alt="" />
         </div>
       </div>
     </Container>
